@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vamp.ifpiprojetos.com.vamp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".lists.DonorListActivity" />
+        <activity android:name=".forms.DonorRegisterActivity" />
+        <activity android:name=".forms.HospitalRegisterActivity" />
+        <activity android:name=".lists.HospitalListActivity" />
+        <activity android:name=".forms.ReceiverRegisterActivity" />
+        <activity android:name=".lists.ReceiverListActivity" />
+        <activity android:name=".MainMenuActivity"></activity>
+        <activity android:name=".RankingActivity" />
+        <activity android:name=".LoadingActivity"></activity>
+    </application>
+
+</manifest>

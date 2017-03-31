@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:paddingTop="4dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/avatar_doador"
+        android:id="@+id/list_item_form_donor_avatar"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_item_form_donor_name"
+            android:text="@string/nome"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#595959"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:id="@+id/list_item_form_donor_address"
+            android:textColor="#595959"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/genre"
+            android:id="@+id/list_item_form_donor_genre"
+            android:textColor="#595959"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:textSize="12sp"/>
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/bolsa_sangue_lista_doadores"
+            android:id="@+id/list_item_form_donor_blood_package"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/list_item_form_donor_bloodType"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="AB+"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#595959"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

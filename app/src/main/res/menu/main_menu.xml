@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_new_donor"
+        android:title="@string/new_donation"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_new_hospital"
+        android:title="@string/new_hospital"
+        android:orderInCategory="200"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_campaigns"
+        android:title="@string/campaigns"
+        android:orderInCategory="300"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_leave"
+        android:title="@string/leave"
+        android:orderInCategory="400"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/icon_rankings"
+        android:title="@string/rankings"
+        android:orderInCategory="500"
+        android:icon="@drawable/ic_action_achievement"
+        app:showAsAction="always"/>
+
+</menu>

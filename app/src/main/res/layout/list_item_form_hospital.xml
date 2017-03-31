@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:paddingTop="4dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/hospital_icon"
+        android:id="@+id/list_item_form_hospital_avatar"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_item_form_hospital_name"
+            android:text="@string/nome"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#595959"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:id="@+id/list_item_form_hospital_address"
+            android:textColor="#595959"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:id="@+id/list_item_form_hospital_phone"
+            android:textColor="#595959"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
